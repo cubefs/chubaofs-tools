@@ -1,0 +1,3 @@
+#addr               dir|name_part(文件名字里面有这个字符串就同步)                              关键字匹配       写入到哪个目录
+127.0.0.1:9595      /home/raft/log/                                                             .log          /export/sync/127.0.0.1/
+
