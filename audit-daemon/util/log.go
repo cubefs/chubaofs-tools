@@ -16,7 +16,7 @@ func ConfigLog(module string, logLevel string) {
 	}
 
 	var format = logging.MustStringFormatter(
-		`%{asctime} %{shortfunc} [%{level:.4s}] - %{message}`,
+		`%{time:15:04:05.000} %{shortfunc} [%{level:.4s}] - %{message}`,
 	)
 
 	var infoLogBackend logging.Backend
