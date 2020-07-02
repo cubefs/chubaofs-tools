@@ -1,0 +1,6 @@
+.idea/
+audit-daemon.iml
+audit-daemon
+tmp/
+log.log
+log/

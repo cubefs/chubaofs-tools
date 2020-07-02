@@ -1,0 +1,98 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "/WZk9fYS7Cttcq1vJQxz8VHV+2o=",
+			"path": "github.com/chubaofs/chubaofs/proto",
+			"revision": "8f0501daf878aca5308e942005cd85d554c17a4e",
+			"revisionTime": "2020-06-09T07:07:44Z"
+		},
+		{
+			"checksumSHA1": "NjFiah/tF2ipkDI5OFwbUx3jhA4=",
+			"path": "github.com/chubaofs/chubaofs/util",
+			"revision": "8f0501daf878aca5308e942005cd85d554c17a4e",
+			"revisionTime": "2020-06-09T07:07:44Z"
+		},
+		{
+			"checksumSHA1": "JF7dsvIXBfzewQ4w30ZP+iy1kA4=",
+			"path": "github.com/chubaofs/chubaofs/util/auth",
+			"revision": "8f0501daf878aca5308e942005cd85d554c17a4e",
+			"revisionTime": "2020-06-09T07:07:44Z"
+		},
+		{
+			"checksumSHA1": "UdNg8s8XOFA2rzU1dLMxrlld0Q4=",
+			"path": "github.com/chubaofs/chubaofs/util/btree",
+			"revision": "8f0501daf878aca5308e942005cd85d554c17a4e",
+			"revisionTime": "2020-06-09T07:07:44Z"
+		},
+		{
+			"checksumSHA1": "zeWDJB4TXPP4yi5ZlaEjCX6nquo=",
+			"path": "github.com/chubaofs/chubaofs/util/buf",
+			"revision": "8f0501daf878aca5308e942005cd85d554c17a4e",
+			"revisionTime": "2020-06-09T07:07:44Z"
+		},
+		{
+			"checksumSHA1": "8x1yUFBPdjDmxEsT0IGUptoh0dY=",
+			"path": "github.com/chubaofs/chubaofs/util/caps",
+			"revision": "8f0501daf878aca5308e942005cd85d554c17a4e",
+			"revisionTime": "2020-06-09T07:07:44Z"
+		},
+		{
+			"checksumSHA1": "5QqmFx7+xjVvn7VAupg8E4O733E=",
+			"path": "github.com/chubaofs/chubaofs/util/config",
+			"revision": "8f0501daf878aca5308e942005cd85d554c17a4e",
+			"revisionTime": "2020-06-09T07:07:44Z"
+		},
+		{
+			"checksumSHA1": "go0iYBRdklkDksn1jKdUFt4h8zg=",
+			"path": "github.com/chubaofs/chubaofs/util/cryptoutil",
+			"revision": "8f0501daf878aca5308e942005cd85d554c17a4e",
+			"revisionTime": "2020-06-09T07:07:44Z"
+		},
+		{
+			"checksumSHA1": "t9aD8gSGwgJDklvkaXNmzlRIeeQ=",
+			"path": "github.com/chubaofs/chubaofs/util/errors",
+			"revision": "8f0501daf878aca5308e942005cd85d554c17a4e",
+			"revisionTime": "2020-06-09T07:07:44Z"
+		},
+		{
+			"checksumSHA1": "eNQr+lLsJrB9VJQwgZtLl0mDaZA=",
+			"path": "github.com/chubaofs/chubaofs/util/keystore",
+			"revision": "8f0501daf878aca5308e942005cd85d554c17a4e",
+			"revisionTime": "2020-06-09T07:07:44Z"
+		},
+		{
+			"checksumSHA1": "jvQeHY6P5iSmgAoxMSykDnKzzGs=",
+			"path": "github.com/chubaofs/chubaofs/util/log",
+			"revision": "8f0501daf878aca5308e942005cd85d554c17a4e",
+			"revisionTime": "2020-06-09T07:07:44Z"
+		},
+		{
+			"checksumSHA1": "xXYUYeUx4UqRCjfoh/nBitJ7PYs=",
+			"origin": "github.com/chubaofs/chubaofs/vendor/github.com/google/uuid",
+			"path": "github.com/google/uuid",
+			"revision": "8f0501daf878aca5308e942005cd85d554c17a4e",
+			"revisionTime": "2020-06-09T07:07:44Z"
+		},
+		{
+			"checksumSHA1": "BoXdUBWB8UnSlFlbnuTQaPqfCGk=",
+			"path": "github.com/op/go-logging",
+			"revision": "970db520ece77730c7e4724c61121037378659d9",
+			"revisionTime": "2016-03-15T20:05:05Z"
+		},
+		{
+			"checksumSHA1": "TLwTRAMYHYZeN70GnEVRQw4utEk=",
+			"path": "github.com/spf13/cast",
+			"revision": "c01685bb8421cecb276fa517e91f757215f980b3",
+			"revisionTime": "2019-05-31T09:26:28Z"
+		},
+		{
+			"checksumSHA1": "TM3Neoy1xRAKyZYMGzKc41sDFW4=",
+			"path": "gopkg.in/natefinch/lumberjack.v2",
+			"revision": "a96e63847dc3c67d17befa69c303767e2f84e54f",
+			"revisionTime": "2017-05-31T16:03:50Z"
+		}
+	],
+	"rootPath": "fsync"
+}
