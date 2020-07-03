@@ -19,30 +19,19 @@ import (
 	"os"
 
 	"github.com/chubaofs/chubaofs-tools/fault-inject/cmd"
-	command "github.com/chubaofs/chubaofs/cli/cmd"
-	"github.com/chubaofs/chubaofs/sdk/master"
-	"github.com/spf13/cobra"
+	clicmd "github.com/chubaofs/chubaofs/cli/cmd"
 )
 
-func runCLI() (err error) {
-	var cfg *command.Config
-	if cfg, err = command.LoadConfig(); err != nil {
-		return
-	}
-	c := setupCommands(cfg)
-	err = c.Execute()
-	return
-}
-
-func setupCommands(cfg *command.Config) *cobra.Command {
-	var mc = master.NewMasterClient(cfg.MasterAddr, false)
-	return cmd.NewRootCmd(mc)
-}
-
 func main() {
-	var err error
-	if err = runCLI(); err != nil {
-		fmt.Fprintf(os.Stderr, "Error: %v\n", err)
+	cfg, err := clicmd.LoadConfig()
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Failed: %v\n", err)
+		os.Exit(1)
+	}
+
+	c := cmd.NewRootCmd(cfg)
+	if err = c.Execute(); err != nil {
+		fmt.Fprintf(os.Stderr, "Failed: %v\n", err)
 		os.Exit(1)
 	}
 }

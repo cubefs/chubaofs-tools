@@ -18,11 +18,11 @@ import (
 	"os"
 	"path"
 
-	"github.com/chubaofs/chubaofs/sdk/master"
+	clicmd "github.com/chubaofs/chubaofs/cli/cmd"
 	"github.com/spf13/cobra"
 )
 
-func NewRootCmd(client *master.MasterClient) *cobra.Command {
+func NewRootCmd(config *clicmd.Config) *cobra.Command {
 	var c = &cobra.Command{
 		Use:   path.Base(os.Args[0]),
 		Short: "ChubaoFS Fault Inject Tool",
@@ -30,7 +30,7 @@ func NewRootCmd(client *master.MasterClient) *cobra.Command {
 	}
 
 	c.AddCommand(
-		newNetworkFaultCmd(client),
+		newRunCmd(config),
 	)
 	return c
 }
